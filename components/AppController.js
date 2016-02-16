@@ -30,7 +30,7 @@ class AppController extends React.Component {
                             <li>
                                 <a href="#"><i className="fa fa-sitemap"></i> <span className="nav-label">Manage </span><span className="fa arrow"></span></a>
                                 <ul className="nav nav-second-level">
-                                    <li><a href="apikeys.html"><i className="fa fa-key"></i>API Keys & SDK</a></li>
+                                    <li><Link to="/apikeys.html"><i className="fa fa-key"></i>API Keys & SDK</Link></li>
                                     <li><a href="providers.html"><i className="fa fa-lock"></i>Providers</a></li>
                                     <li><a href="userrepositories.html"><i className="fa fa-users"></i>User Repositories</a></li>
                                     <li><a href="#"><i className="fa fa-institution"></i>Customers</a></li>
