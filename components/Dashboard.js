@@ -32,12 +32,12 @@ export default React.createClass({
                                         <span className="label label-success pull-right">Monthly</span>
                                         <h5>Registrations</h5>
                                     </div>
-                                    <div className="ibox-content">
+                                      <div className="ibox-content">
                                         <h1 className="no-margins">886,200</h1>
                                         <div className="stat-percent font-bold text-success">50% <i className="fa fa-bolt"></i></div>
                                         <small>Total Registrations</small>
                                     </div>
-                                </div>
+                                    </div>
                             </div>
                             <div className="col-lg-3">
                                 <div className="ibox float-e-margins">

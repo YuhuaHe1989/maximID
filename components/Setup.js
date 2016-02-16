@@ -3,7 +3,27 @@ import React from 'react'
 export default React.createClass({
   render() {
     return (
-      <div>
+      <div id="page-wrapper" className="gray-bg">
+        <div className="row border-bottom">
+                    <nav className="navbar navbar-static-top white-bg" role="navigation" >
+                        <div className="navbar-header">
+                            <a className="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i className="fa fa-bars"></i> </a>
+                            <form role="search" className="navbar-form-custom" method="post" action="search_results.html">
+                                <div className="form-group">
+                                    <input type="text" placeholder="Setup" className="form-control" name="top-search" id="top-search"/>
+                                </div>
+                            </form>
+                        </div>
+                        <ul className="nav navbar-top-links navbar-right">
+                            <li>
+                                <a href="login.html">
+                                    <i className="fa fa-sign-out"></i> Log out
+                                </a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </div>
         <div className="wrapper wrapper-content animated fadeInRight">
 
             <div className="row">
