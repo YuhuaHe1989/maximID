@@ -8,6 +8,7 @@ import Setup from './components/Setup'
 import Apikeys from './components/Apikeys'
 import Providers from './components/Providers'
 import Userrepositories from './components/Userrepositories'
+import Customers from './components/Customers'
 
 ReactDOM.render((
   <Router history={hashHistory}>
@@ -18,6 +19,7 @@ ReactDOM.render((
         <Route path="/apikeys.html" component={Apikeys} />
         <Route path="/providers.html" component={Providers} />
         <Route path="/userrepositories.html" component={Userrepositories} />
+        <Route path="/customers.html" component={Customers} />
       </Route>
     </Route>
   </Router>
