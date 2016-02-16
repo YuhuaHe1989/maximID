@@ -58,7 +58,7 @@ class AppController extends React.Component {
                             <Link to="/billing.html"><i className="fa fa-dollar"></i> <span className="nav-label">Billing and Usage</span> </Link>
                         </li>
                         <li>
-                            <a href="insights.html"><i className="fa fa-bar-chart-o"></i> <span className="nav-label">Insights & Analytics</span> </a>
+                            <Link to="/insights.html"><i className="fa fa-bar-chart-o"></i> <span className="nav-label">Insights & Analytics</span> </Link>
                         </li>
                     </ul>
 
