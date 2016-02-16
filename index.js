@@ -6,6 +6,7 @@ import AppController from './components/AppController'
 import Dashboard from './components/Dashboard'
 import Setup from './components/Setup'
 import Apikeys from './components/Apikeys'
+import Providers from './components/Providers'
 
 ReactDOM.render((
   <Router history={hashHistory}>
@@ -14,6 +15,7 @@ ReactDOM.render((
       <Route path="/setup.html" component={Setup} />
       <Route>
         <Route path="/apikeys.html" component={Apikeys} />
+        <Route path="/providers.html" component={Providers} />
       </Route>
     </Route>
   </Router>
