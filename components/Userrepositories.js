@@ -70,14 +70,14 @@ export default React.createClass({
                     </div>
                 </div>
 
-        </div>
-        <div className="footer">
-            <div className="pull-right">
-                Contact  <strong>support@maximID.com</strong> for support.
-            </div>
-            <div>
-                <strong>Copyright</strong> maximID Inc &copy; 2014-2015
-            </div>
+          <div className="footer">
+              <div className="pull-right">
+                  Contact  <strong>support@maximID.com</strong> for support.
+              </div>
+              <div>
+                  <strong>Copyright</strong> maximID Inc &copy; 2014-2015
+              </div>
+          </div>
         </div>
 
 

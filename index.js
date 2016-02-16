@@ -9,6 +9,7 @@ import Apikeys from './components/Apikeys'
 import Providers from './components/Providers'
 import Userrepositories from './components/Userrepositories'
 import Customers from './components/Customers'
+import PoliciesAuth from './components/PoliciesAuth'
 
 ReactDOM.render((
   <Router history={hashHistory}>
@@ -20,7 +21,17 @@ ReactDOM.render((
         <Route path="/providers.html" component={Providers} />
         <Route path="/userrepositories.html" component={Userrepositories} />
         <Route path="/customers.html" component={Customers} />
+        <Route>
+          <Route path="/policiesAuth.html" component={PoliciesAuth} />
+        </Route>
       </Route>
     </Route>
   </Router>
   ), document.getElementById('maximID'));
+
+
+
+
+
+
+
