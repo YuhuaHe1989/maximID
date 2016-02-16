@@ -12,6 +12,7 @@ import Customers from './components/Customers'
 import PoliciesAuth from './components/PoliciesAuth'
 import PoliciesRegister from './components/PoliciesRegister'
 import PoliciesApplication from './components/PoliciesApplication'
+import PoliciesRisk from './components/PoliciesRisk'
 
 ReactDOM.render((
   <Router history={hashHistory}>
@@ -27,6 +28,7 @@ ReactDOM.render((
           <Route path="/policiesAuth.html" component={PoliciesAuth} />
           <Route path="/policiesRegister.html" component={PoliciesRegister} />
           <Route path="/policiesApplication.html" component={PoliciesApplication} />
+          <Route path="/policiesRisk.html" component={PoliciesRisk} />
         </Route>
       </Route>
     </Route>
