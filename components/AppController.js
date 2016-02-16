@@ -41,13 +41,13 @@ class AppController extends React.Component {
                                                 <Link to="/policiesAuth.html"><i className="fa fa-users"></i>User Eligibility</Link>
                                             </li>
                                             <li>
-                                                <Link to="policiesRegister.html"><i className="fa fa-key"></i>Provider Policies</Link>
+                                                <Link to="/policiesRegister.html"><i className="fa fa-key"></i>Provider Policies</Link>
                                             </li>
                                             <li>
-                                                <Link to="policiesApplication.html"><i className="fa fa-thumbs-up"></i>Application Policies</Link>
+                                                <Link to="/policiesApplication.html"><i className="fa fa-thumbs-up"></i>Application Policies</Link>
                                             </li>
                                             <li>
-                                                <Link to="policiesRisk.html"><i className="fa fa-shield"></i>Assurance Levels</Link>
+                                                <Link to="/policiesRisk.html"><i className="fa fa-shield"></i>Assurance Levels</Link>
                                             </li>
 
                                         </ul>
@@ -55,7 +55,7 @@ class AppController extends React.Component {
                                 </ul>
                             </li>
                         <li>
-                            <a href="billing.html"><i className="fa fa-dollar"></i> <span className="nav-label">Billing and Usage</span> </a>
+                            <Link to="/billing.html"><i className="fa fa-dollar"></i> <span className="nav-label">Billing and Usage</span> </Link>
                         </li>
                         <li>
                             <a href="insights.html"><i className="fa fa-bar-chart-o"></i> <span className="nav-label">Insights & Analytics</span> </a>
