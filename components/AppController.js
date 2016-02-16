@@ -41,7 +41,7 @@ class AppController extends React.Component {
                                                 <Link to="/policiesAuth.html"><i className="fa fa-users"></i>User Eligibility</Link>
                                             </li>
                                             <li>
-                                                <a href="policies.jsp?ttype=register"><i className="fa fa-key"></i>Provider Policies</a>
+                                                <Link to="policiesRegister.html"><i className="fa fa-key"></i>Provider Policies</Link>
                                             </li>
                                             <li>
                                                 <a href="policies.jsp?ttype=Application"><i className="fa fa-thumbs-up"></i>Application Policies</a>
