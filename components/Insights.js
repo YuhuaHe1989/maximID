@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router"
 
 export default React.createClass({
   render() {
@@ -18,9 +19,9 @@ export default React.createClass({
                 </div>
                 <ul className="nav navbar-top-links navbar-right">
                     <li>
-                        <a href="login.html">
+                        <Link to="/login.html">
                             <i className="fa fa-sign-out"></i> Log out
-                        </a>
+                        </Link>
                     </li>
                 </ul>
 

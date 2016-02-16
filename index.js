@@ -15,6 +15,7 @@ import PoliciesApplication from './components/PoliciesApplication'
 import PoliciesRisk from './components/PoliciesRisk'
 import Billing from './components/Billing'
 import Insights from './components/Insights'
+import Login from './components/Login'
 
 ReactDOM.render((
   <Router history={hashHistory}>
@@ -36,6 +37,7 @@ ReactDOM.render((
       <Route path="/billing.html" component={Billing} />
       <Route path="/insights.html" component={Insights} />
     </Route>
+    <Route path="/login.html" component={Login} />
   </Router>
   ), document.getElementById('maximID'));
 

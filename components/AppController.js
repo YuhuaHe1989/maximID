@@ -22,7 +22,7 @@ class AppController extends React.Component {
                             <span className="clear"> <span className="block m-t-xs"> <strong className="font-bold">John A. Smith</strong>
                              </span> <span className="text-muted text-xs block">Administrator <b className="caret"></b></span> </span> </a>
                             <ul className="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="login.html">Logout</a></li>
+                                <li><Link to="/login.html">Logout</Link></li>
                             </ul>
                             </span>
                           </div>
